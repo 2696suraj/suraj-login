@@ -1,0 +1,85 @@
+.Createacount-bg-co{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center; 
+}
+.Createacount-card-co-form-co{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+
+.login-form-co{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.Createacount-bg-co label {
+    font-weight:bold;
+
+}
+.Createacount-bg-co input {
+    font-weight:bold;
+    width:100%;
+    height:30px;
+}
+.Createacount-bg-co button {
+    font-weight:bold;
+    width:100%;
+    height:45px;
+    background-color:rgb(19, 109, 139);
+    border:none;
+    border-radius:5px;
+    font-size:17px;
+    color:white;
+}
+.Createacount-card-co-form-co-name-para{
+    color:red;
+    margin-top:0px;
+    font-weight:bold;
+}
+.Createacount-card-co-form-co-email-para{
+    color:red;
+    margin-top:0px;
+    font-weight:bold;
+}
+.Createacount-card-co-form-co-password-para{
+    color:red;
+    margin-top:0px;
+    font-weight:bold;
+}
+.Createacount-card-co-form-co-name-para-se{
+    color:transparent;
+    margin-top:0px;
+    font-weight:bold;
+}
+.Createacount-card-co-form-co-email-para-se{
+    color:transparent;
+    margin-top:0px;
+    font-weight:bold;
+}
+.Createacount-card-co-form-co-password-para-se{
+    color:transparent;
+    margin-top:0px;
+    font-weight:bold;
+}
+
+.create-success-heding{
+    color:transparent;
+}
+.create-success-heding-se{
+    color:green;
+}
+
+.login-succes-heding{
+    color:transparent;
+}
+.login-succes-heding-se{
+    color:green;
+}

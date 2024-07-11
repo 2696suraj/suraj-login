@@ -1,0 +1,206 @@
+.ClientTestimonlals-bg-co {
+  margin-top: 400px;
+  padding: 20px;
+  height:115vh;
+}
+.clienttest-top-heding-bg-co-paragraph {
+  color: red;
+  text-align: center;
+  font-weight: 600;
+}
+.clienttest-top-heding-bg-co-heding {
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.clienttest-card-bg-card-co {
+  border: solid rgb(86, 84, 84);
+  border-bottom: solid 17px rgb(98, 96, 96);
+  padding: 30px;
+  position: absolute;
+  height:390px;
+}
+
+.clienttest-card-bg-co:hover .clienttest-card-bg-card-co{
+  border: solid red;
+  border-bottom: solid 17px red;
+  box-shadow:1px 3px 3px 4px rgb(87, 85, 85);
+  color:black;
+  margin-bottom:200px;
+}
+
+
+
+.clienttest-card-bg-card-co {
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: bold;
+  color: rgb(118, 116, 116);
+}
+
+.clienttest-card-bg-card-co-id-bg-co-img-class {
+  border-radius: 50px;
+  margin-bottom: 0px;
+}
+
+.clienttest-card-bg-card-co-id-bg-co-text-co-first-pa {
+  font-weight: 800;
+  margin-top: 7px;
+  font-size: 17px;
+}
+
+.clienttest-card-bg-card-co-id-bg-co-text-co-second-pa {
+  color: red;
+  line-height: 2px;
+  font-weight: 700;
+  font-size: 17px;
+}
+.clienttest-card-bg-card-co-id-bg-co {
+  position: absolute;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 200px;
+  padding-left: 30px;
+}
+.slider-container {
+  display: none;
+}
+.slider-container-se {
+  display: none;
+}
+.slider-container-te {
+  display: none;
+}
+.clienttest-card-bg-co{
+  transition:2s all;
+  position: relative;
+ 
+}
+.clienttest-card-bg-co:hover {
+      transform:rotateY(360deg);
+
+} 
+.clienttest-card-bg-card-co-id-bg-co {
+  height: 560px;
+}
+
+
+@media screen and (min-width: 403px) {
+  .clienttest-card-bg-card-co-id-bg-co {
+    height: 410px;
+  }
+  .clienttest-card-bg-card-co {
+   
+    height:240px;
+  }
+}
+
+@media screen and (min-width: 457px) {
+  .clienttest-card-bg-card-co-id-bg-co {
+    height: 410px;
+  }
+}
+
+@media screen and (min-width: 569px) {
+  .clienttest-card-bg-card-co-id-bg-co {
+    height: 425px;
+    width: 470px;
+  }
+  .clienttest-card-bg-card-co {
+    width: 480px;
+    padding: 40px;
+  }
+  .clienttest-card-bg-card-co-id-bg-co-img-class {
+    height: 90px;
+  }
+
+  .clienttest-card-bg-card-co-pragraph {
+    font-size: 22px;
+  }
+  .clienttest-card-bg-co {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+  }
+  .slider-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .clienttest-card-bg-co-main-co {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 755px) {
+  .slider-container {
+    display: none;
+  }
+  .ClientTestimonlals-bg-co {
+ 
+    height:120vh;
+  }
+ 
+  
+  .clienttest-top-heding-bg-co-paragraph {
+    font-size: 30px;
+  }
+
+  .slider-container-se {
+    display: flex;
+    flex-direction: column;
+  }
+  .clienttest-card-bg-card-co {
+    width: 270px;
+    height: 320px;
+  }
+  .clienttest-card-bg-card-co-pragraph {
+    line-height: 45px;
+  }
+  .clienttest-card-bg-card-co-id-bg-co {
+    height: 510px;
+    width: 270px;
+  }
+  .clienttest-card-bg-co {
+    height: 600px;
+  }
+  .clienttest-top-heding-bg-co-heding {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 980px) {
+  .clienttest-card-bg-card-co {
+    width: 350px;
+  }
+  .clienttest-card-bg-card-co-id-bg-co {
+    height: 630px;
+    width: 270px;
+    margin-top: 20px;
+  }
+  .clienttest-card-bg-card-co-id-bg-co {
+    height: 490px;
+    width: 320px;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .slider-container-se {
+    display: none;
+  }
+  .slider-container-te {
+    display: flex;
+    flex-direction: column;
+  }
+  .clienttest-card-bg-card-co {
+    width: 290px;
+  }
+  .clienttest-card-bg-card-co-id-bg-co {
+    height: 490px;
+    width: 320px;
+  }
+
+}

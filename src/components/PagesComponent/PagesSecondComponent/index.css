@@ -1,0 +1,146 @@
+.PagesSecondComponent-bg-co{
+    padding:20px;
+}
+.PagesSecondComponent-card-co{
+    display:flex;
+    flex-direction: column;
+align-items: center;
+}
+
+.PagesSecondComponent-card-co-button-co{
+    display:flex;
+    justify-content: center;
+    padding-top:90px;
+    margin-bottom:50px;
+}
+
+
+
+.PagesSecondComponent-card-co-button-co-button-class{
+    background-color:red;
+    color:white;
+    font-weight:bold;
+    border-radius:20px;
+    height:50px;
+    width:100px;
+    border:none;
+    font-size:17px;
+    margin:5px;
+}
+
+.PagesSecondComponent-card-co-button-co-button-class-se{
+    background-color:pink;
+    color:black;
+    font-weight:bold;
+    border-radius:20px;
+    height:50px;
+    width:100px;
+    border:none;
+    font-size:17px;
+    margin:5px;
+}
+
+.PagesSecondComponent-card-co-cart-co{
+    background-color:rgb(220, 213, 214);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+    padding-top:50px;
+    border-radius:10px;
+    max-width:500px;
+    width:90%;
+    margin-bottom:30px;
+}
+
+.PagesSecondComponent-card-co-cart-co-first-icon-co{
+    height:120px;
+    width:120px;
+    background-color:pink;
+    border-radius:100px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.PagesSecondComponent-card-co-cart-co-first-icon-co-icon{
+   font-size: 33px;
+}
+
+.PagesSecondComponent-card-co-cart-co-icon-paragraph{
+    font-weight: bold;
+    font-size:20px;
+    margin-top:15px;
+    margin-bottom:0px;
+}
+.PagesSecondComponent-card-co-cart-co-icon-heding{
+    font-weight: bold;
+    margin-top:0px;
+    font-size:42px;
+    line-height: 40px;
+
+}
+
+.PagesSecondComponent-card-co-cart-co-icon-conditions-icon-text-bg-co{
+    background-color:white;
+    width:80%;
+    border-radius:20px;
+    padding:15px;
+}
+
+.PagesSecondComponent-card-co-cart-co-icon-conditions-icon-text-co{
+    display:flex;
+    align-items:center;
+}
+
+.PagesSecondComponent-card-co-cart-co-icon-conditions-icon-text-co-icon-class{
+    font-size:23px;
+    color:red;
+   font-weight:bold;
+   margin-right:6px;
+}
+.PagesSecondComponent-card-co-cart-co-icon-conditions-icon-text-co-text{
+    font-weight:600;
+}
+
+.PagesSecondComponent-card-co-cart-co-button-botton-co{
+    display:flex;
+    justify-content:center;
+}
+.PagesSecondComponent-card-co-cart-co-button-bottom-buttonclass{
+    background-color:red;
+    color:white;
+    height:50px;
+    width:90%;
+    font-weight:bold;
+    font-size:16px;
+    border:none;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.PagesSecondComponent-card-co-cart-bg-co{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+align-items: center;
+}
+@media screen and (min-width : 767px) {
+    .PagesSecondComponent-card-co-cart-bg-co{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .PagesSecondComponent-card-co-cart-co{
+       width:39%;
+       margin:17px;
+    }
+}
+
+@media screen and (min-width : 970px) {
+  
+    .PagesSecondComponent-card-co-cart-co{
+       width:25%;
+       margin:10px;
+    }
+}

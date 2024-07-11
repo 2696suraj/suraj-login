@@ -1,0 +1,155 @@
+.workvideo-bg-co {
+  position: absolute;
+  width: 97%;
+  margin-top: 160px;
+  padding-bottom:120px;
+}
+.workvideo-bg-co .workvideo-number-co:hover{
+  transform:scale(1.2);
+}
+
+.workvideo-bg-co .workvideo-number-co-paragraph:hover{
+  color:white;
+}
+.workvideo-card-co {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.workvideo-text-co-pargraph {
+  color: red;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+
+.workvideo-text-co-heding {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0px;
+}
+.workvideo-video-co {
+  background-image: url("https://kimox.vercel.app/assets/img/bg/video-bg.jpg");
+  height: 400px;
+  width: 100%;
+  max-width: 500px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.workvideo-icon-class {
+  color: red;
+  font-size: 80px;
+}
+
+
+.workvideo-number-co {
+  background-color: red;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+ 
+  position: absolute;
+}
+.workvideo-number-co-heding {
+  color: white;
+  margin-top: 0px;
+  font-size: 27px;
+  padding-left:30px;
+}
+.workvideo-number-bg-co {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 550px;
+  width: 400px;
+  margin-right: 160px;
+}
+.workvideo-number-co-paragraph {
+  color: white;
+  margin-bottom: 0px;
+  font-size: 16px;
+  padding-left:30px;
+}
+
+@media screen and (min-width: 330px) {
+  .workvideo-number-bg-co {
+    width: 400px;
+  }
+  .workvideo-number-co {
+    width: 230px;
+    height: 100px;
+    margin-right: 0px;
+
+  }
+}
+
+@media screen and (min-width: 430px) {
+  .workvideo-number-bg-co {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 780px) {
+  .workvideo-number-bg-co {
+    width: 700px;
+  }
+  .workvideo-video-co {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .workvideo-video-co {
+    max-width: 900px;
+    height: 500px;
+  }
+  .workvideo-number-bg-co {
+    height: 800px;
+    width: 850px;
+  }
+  .workvideo-number-co {
+    width: 330px;
+    height: 140px;
+  }
+  .workvideo-text-co-heding {
+    font-size: 60px;
+  }
+  .workvideo-text-co-pargraph {
+    font-size: 30px;
+  }
+  .workvideo-number-co-heding {
+    font-size: 37px;
+  }
+  .workvideo-number-co-paragraph {
+    font-size: 20px;
+    font-weight: 500px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .workvideo-video-co {
+    max-width: 1150px;
+    height: 500px;
+  }
+  .workvideo-number-bg-co {
+    margin-left: 270px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .workvideo-video-co {
+    max-width: 1190px;
+  }
+  .workvideo-number-bg-co {
+    margin-left: 650px;
+    width: 500px;
+  }
+}

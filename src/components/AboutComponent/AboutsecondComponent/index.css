@@ -1,0 +1,88 @@
+.AboutsecondComponent-disitalagency-bg-co {
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.disitalagence-text-co-third-pargraph {
+  font-weight: bold;
+  font-size: 18px;
+}
+.AboutsecondComponent-disitalagency-bg-co .disitalagence-text-co {
+  margin-bottom: 50px;
+}
+.AboutsecondComponent-disitalagency-bg-co
+  .disitalagence-image-co-second-image-class {
+  height: 70px;
+  width: 150px;
+  background-color: white;
+  padding: 20px;
+  padding-top: 10px;
+  box-shadow: 2px 3px 3px 3px black;
+  margin-bottom: 0px;
+}
+
+.AboutsecondComponent-disitalagence-image-co-second-image-class-paragraph {
+  font-size: 14px;
+  color: red;
+  font-weight: bold;
+}
+
+.AboutsecondComponent-disitalagence-image-co-second-image-class-heding {
+  font-size: 13px;
+}
+
+@media screen and (min-width: 580px) {
+  .AboutsecondComponent-disitalagency-bg-co
+    .disitalagence-image-co-second-image-class {
+    height: 140px;
+    background-color: white;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+
+    box-shadow: 2px 3px 3px 3px black;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .AboutsecondComponent-disitalagency-bg-co
+    .disitalagence-image-co-second-image-class {
+    margin-left: 200px;
+    width: 240px;
+  }
+  .AboutsecondComponent-disitalagence-image-co-second-image-class-paragraph {
+    font-size: 17px;
+  }
+
+  .AboutsecondComponent-disitalagence-image-co-second-image-class-heding {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 980px) {
+  .AboutsecondComponent-disitalagency-bg-co {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+  .AboutsecondComponent-disitalagency-bg-co
+    .disitalagence-image-co-second-image-class {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .AboutsecondComponent-disitalagency-bg-co
+    .disitalagence-image-co-second-image-class {
+    margin-left: 20px;
+  }
+  .AboutsecondComponent-disitalagency-bg-co {
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  .AboutsecondComponent-disitalagency-bg-co
+    .disitalagence-image-co-first-image-co {
+    margin-left: 40px;
+  }
+}

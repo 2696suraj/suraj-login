@@ -1,0 +1,190 @@
+.free-consula-bg-co {
+  display: flex;
+  justify-content: center;
+}
+.free-consula-bg-co p:hover{
+  font-weight:600;
+  color:white;
+}
+.free-consu-icon-paragraph-number-co-icon-bg-co:hover{
+  transform:scale(1.2);
+  
+}
+.free-consula-card-co {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #ff4040;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 100%;
+  max-width: 430px;
+}
+
+@media screen and (min-width: 770px) {
+  .free-consula-card-co {
+    max-width: 590px;
+    padding: 60px;
+  }
+}
+
+.free-consu-icon-paragraph-number-co-icon-bg-co {
+  height: 50px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 480px) {
+  .free-consu-icon-paragraph-number-co-icon-bg-co {
+    margin-right: 30px;
+  }
+}
+.free-consu-icon-paragraph-number-co-icon-co,
+.free-consu-icon-paragraph-number-co-icon-co-se,
+.free-consu-icon-paragraph-number-co-icon-co-te {
+  height: 30px;
+  width: 30px;
+  border: solid 4px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  padding: 3px;
+  position: absolute;
+}
+.free-consu-icon-paragraph-number-co-icon-co-icon-class {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  color: white;
+}
+.free-consu-icon-paragraph-number-co-icon-co {
+  z-index: 3;
+  background-color: #ff4040;
+  margin-left: 25px;
+  margin-bottom: 14px;
+  padding: 5px;
+}
+.free-consu-icon-paragraph-number-co-icon-co-se {
+  z-index: 2;
+  margin-left: 30px;
+  margin-top: 50px;
+  border: none;
+  background-color: #ff4040;
+  padding: 0px;
+  height: 45px;
+  width: 45px;
+}
+.free-consu-icon-paragraph-number-co-icon-co-te {
+  z-index: 1;
+  background-color: #ff4040;
+  margin-top: 20px;
+}
+
+.free-consu-number-co-paragraph-class {
+  color: white;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 480px) {
+  .free-consu-number-co-paragraph-class {
+    margin-top: 0px;
+  }
+}
+.free-consu-number-co-heding-class {
+  color: white;
+  font-size: 35px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+
+.free-consu-paragraph-co-paragraph-class {
+  color: white;
+  line-height: 30px;
+  margin-top: 0px;
+  font-weight: 600;
+}
+
+.free-consu-paragraph-co-se {
+  display: none;
+}
+@media screen and (min-width: 770px) {
+  .free-consu-paragraph-co-se {
+    display: flex;
+    margin-top: 0px;
+  }
+  .free-consu-paragraph-co {
+    display: none;
+  }
+  .free-consu-number-paragraph-co {
+    margin-bottom: 0px;
+  }
+}
+
+.free-consu-button-co-button-class {
+  background-color: black;
+  color: white;
+  height: 60px;
+  width: 200px;
+  font-weight: bold;
+  margin-top: 10px;
+  border: none;
+  transition:all 1s;
+}
+.free-consu-button-co-button-class:hover {
+  background-color: white;
+  transform: scale(1.1);
+  color:red;
+
+}
+@media screen and (min-width: 480px) {
+  .free-consu-icon-paragraph-number-co {
+    display: flex;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .free-consula-card-co {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 920px;
+    padding: 20px;
+    margin-bottom: 50px;
+    position: absolute;
+  }
+
+  .free-consu-icon-paragraph-number-co {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .free-consu-paragraph-co-se {
+    width: 230px;
+  }
+  .free-consu-icon-paragraph-number-co-icon-bg-co {
+    margin-right: 0px;
+    margin-top: 30px;
+  }
+  .free-consu-button-co-button-class {
+    margin-top: 0px;
+    height: 70px;
+    width: 220px;
+  }
+  .free-consu-paragraph-co-paragraph-class {
+    line-height: 35px;
+    font-size: 17px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .free-consula-card-co {
+    padding: 40px;
+    max-width:1100px;
+  }
+}

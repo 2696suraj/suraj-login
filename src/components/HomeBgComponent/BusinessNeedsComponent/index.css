@@ -1,0 +1,44 @@
+.BusinessNeedsComponent-bg-co {
+  background-image: url("https://kimox.vercel.app/assets/img/trust/trust-bg.jpg");
+  height: 55vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.BusinessNeedsComponent-card-co {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  max-width: 800px;
+}
+.BusinessNeedsComponent-card-co-heding {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+.BusinessNeedsComponent-card-co-button {
+  background-color: red;
+  color: white;
+  height: 60px;
+  width: 200px;
+  font-weight: bold;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .BusinessNeedsComponent-card-co-heding {
+    font-size: 45px;
+  }
+  .BusinessNeedsComponent-card-co-button {
+    height: 80px;
+    width: 300px;
+    font-size: 20px;
+  }
+}

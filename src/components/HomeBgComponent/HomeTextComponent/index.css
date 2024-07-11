@@ -1,0 +1,88 @@
+.hometext-bg-co {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 75%;
+  padding-left: 30px;
+}
+
+
+.hometext-span-heding-co {
+  display: flex;
+  align-items: center;
+}
+.hometext-color-span {
+  background-color: red;
+  height: 9px;
+  width: 35px;
+  margin-bottom: 10px;
+}
+
+.hometext-first-heding {
+  color: white;
+}
+
+.hometext-second-heding-class {
+  color: white;
+  font-size: 40px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.hometeaxt-button-class {
+  width: 200px;
+  height: 55px;
+  font-size: 16px;
+  background-color: #ff4242;
+  border: none;
+  padding: 0px;
+  color: white;
+  margin-top: 0px;
+  transition:all 1s;
+}
+.hometeaxt-button-class:hover {
+  background-color: white;
+  color:#ff4242;
+  transform:scale(1.1);
+   font-weight:bold;
+}
+.hometext-bg-co .hometext-second-heding-class:hover {
+  color: red;
+} 
+.hometext-bg-co .hometext-first-heding:hover {
+  color: red;
+}
+@media screen and (min-width: 816px) {
+  .hometext-second-heding-class {
+    font-size: 90px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .hometeaxt-button-class {
+    height: 65px;
+  }
+}
+@media screen and (min-width: 868px) {
+  .hometext-second-heding-class {
+    font-size: 88px;
+  }
+}
+@media screen and (min-width: 1021px) {
+  .hometext-second-heding-class {
+    font-size: 100px;
+  }
+  .hometext-card-co {
+    padding-left: 100px;
+    padding-top: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hometext-second-heding-class {
+    font-size: 120px;
+  }
+  .hometext-card-co {
+    padding-left: 150px;
+    width: 80%;
+    padding-top: 50px;
+  }
+}

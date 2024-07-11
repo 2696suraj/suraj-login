@@ -1,0 +1,109 @@
+.ContactSecondComponent-disitalagency-bg-co {
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.ContactSecondComponent-disitalagency-bg-co .disitalagency-card-co{
+    padding-bottom:90px;
+
+}
+
+.ContactSecondComponent-disitalagence-text-co-icon-and-name-bg-co {
+  display: flex;
+  align-items: center;
+}
+
+.ContactSecondComponent-disitalagence-text-co-icon-and-name-bg-co-icon-co {
+  height: 70px;
+  width: 70px;
+  background-color: rgb(106, 103, 103);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 90px;
+  margin-right: 20px;
+}
+
+.ContactSecondComponent-disitalagence-text-co-icon-and-name-bg-co-icon-co-icon-class {
+  color: red;
+  font-size: 38px;
+}
+
+.ContactSecondComponent-disitalagence-text-co-icon-and-name-bg-co-name-co-first-para {
+  font-size: 17px;
+  margin-bottom: 0px;
+  font-weight: 700;
+  color: rgb(113, 108, 108);
+}
+
+.ContactSecondComponent-disitalagence-text-co-icon-and-name-bg-co-icon-co:hover {
+  background-color: red;
+}
+
+.ContactSecondComponent-disitalagence-text-co-icon-and-name-bg-co-icon-co:hover
+  .ContactSecondComponent-disitalagence-text-co-icon-and-name-bg-co-icon-co-icon-class {
+  color: white;
+}
+.ContactSecondComponent-disitalagence-text-co-icon-and-name-bg-co-name-co-second-para {
+  font-size: 18px;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.disitalagence-image-co-form-co-first-input-co-input {
+  width: 90%;
+  padding: 30px;
+  background-color: rgb(227, 221, 221);
+  font-size: 20px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.disitalagence-image-co-form-co-first-input-co-input-button {
+  background-color: red;
+  color: white;
+  border: none;
+  height: 70px;
+  width: 200px;
+  margin-top: 20px;
+  font-weight:700;
+  font-size:20px;
+}
+
+.disitalagence-image-co-form-co {
+   width:90%;
+   margin-top:50px;
+     
+}
+@media screen and (min-width : 780px) {
+    .disitalagence-image-co-form-co {
+        width:700px;
+          
+     }
+}
+
+
+@media screen and (min-width: 980px) {
+  .ContactSecondComponent-disitalagency-bg-co {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+  }
+  .disitalagence-image-co-form-co {
+    width:50%;
+      
+ }
+}
+
+
+@media screen and (min-width: 1000px) {
+   .disitalagence-image-co-form-co-first-input-co{
+    display:flex;
+   }
+   .disitalagence-image-co-form-co-first-input-co-input {
+   margin:10px;
+  }
+  }
+  

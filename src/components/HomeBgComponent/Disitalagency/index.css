@@ -1,0 +1,295 @@
+.disitalagency-bg-co {
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.disitalagence-image-co {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 100px;
+}
+.disitalagence-image-co-first-image-class {
+  width: 90%;
+}
+.disitalagence-image-co-first-image-co {
+  padding-bottom: 100px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.disitalagence-image-co-second-image-class {
+  width: 130px;
+  height: 150px;
+}
+
+.disitalagence-image-co-second-second-image-co {
+  position: absolute;
+}
+
+.disitalagence-image-co-second-image-co-second-img-co {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: white;
+  position: absolute;
+  margin-left: 80px;
+  margin-bottom: 120px;
+}
+.disitalagence-image-co-second-image-co-second-img-co-img-class {
+  height: 40%;
+}
+@media screen and (min-width: 400px) {
+  .disitalagence-image-co-second-image-co-second-img-co {
+    height: 100px;
+    width: 100px;
+    margin-left: 170px;
+    margin-bottom: 250px;
+  }
+  .disitalagence-image-co-second-image-class {
+    width: 230px;
+    height: 300px;
+  }
+  
+}
+@media screen and (min-width: 780px) {
+  .disitalagence-image-co-first-image-co {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 90px;
+    margin-left: 20px;
+    padding-left: 100px;
+    padding-right: 120px;
+  }
+
+  .disitalagence-image-co-second-image-class {
+    width: 300px;
+    height: 320px;
+    margin-left: 0px;
+  }
+  .disitalagency-card-co {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .disitalagence-image-co-second-image-co-second-img-co {
+    margin-left: 230px;
+    margin-bottom: 250px;
+    height: 130px;
+    width: 130px;
+    border-radius: 90px;
+  }
+  .disitalagence-image-co-second-image-co-second-img-co-img-class {
+    height: 60%;
+  }
+}
+
+.disitalagence-text-co {
+  width: 90%;
+  max-width: 500px;
+}
+
+@media screen and (min-width: 580px) {
+  .disitalagency-card-co {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.disitalagence-text-co-first-pargraph {
+  color: red;
+  font-weight: bold;
+}
+.disitalagence-text-co-second-pargraph {
+  font-weight: bold;
+}
+@media screen and (min-width: 780px) {
+  .disitalagence-text-co {
+    max-width: 700px;
+  }
+  .disitalagence-text-co-second-pargraph {
+    font-size: 50px;
+  }
+}
+.disitalagence-text-co-third-pargraph {
+  font-family: "Roboto";
+  color: rgb(67, 66, 66);
+  line-height: 40px;
+}
+
+.digital-agency-flex-text-bg-co {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 580px) {
+  .digital-agency-flex-text-bg-co {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+}
+.digital-agency-flex-text-bg-co-first-co-color-heding-co {
+  display: flex;
+  align-items: center;
+}
+.digital-agency-flex-text-bg-co-first-co-color-co {
+  height: 4px;
+  width: 25px;
+  background-color: red;
+  margin-right: 15px;
+}
+
+.digital-agency-flex-text-bg-co-first-co-color-co-paragraph-class {
+  font-weight: 990;
+  font-size: 16px;
+}
+
+.digital-agency-flex-text-bg-co-first-co-color-co-paragraph-second-class {
+  color: rgb(107, 102, 102);
+  font-weight: 400;
+  margin: 0px;
+  line-height: 27px;
+}
+
+.digitalagancy-right-icon-and-paragraph-co {
+  display: flex;
+  align-items: center;
+}
+
+.digitalagancy-right-icon-and-paragraph-co-icon-class {
+  color: red;
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.digitalagancy-right-icon-and-paragraph-co-pragraph-class {
+  font-weight: 800;
+}
+.digitalagancy-right-icon-and-paragraph-co-button-class {
+  background-color: red;
+  color: wheat;
+  height: 60px;
+  width: 230px;
+  border: none;
+  margin-top: 30px;
+  font-weight: bold;
+  transition: all 1s;
+}
+.digitalagancy-right-icon-and-paragraph-co-button-class:hover{
+  background-color: rgb(157, 200, 234);
+  color:red;
+  transform: scale(1.1);
+  border:solid red;
+
+}
+h1:hover{
+  position: relative;
+transform:scale(1.1);
+}
+.disitalagency-bg-co p:hover{
+color:red;
+  transform:scale(1.1);
+  font-weight:700;
+}
+@media screen and (min-width: 980px) {
+  .disitalagency-card-co {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 950px;
+  }
+  .digital-agency-flex-text-bg-co-first-co {
+    margin-right: 13px;
+  }
+  .disitalagency-bg-co {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 290px;
+  }
+  .disitalagence-image-co-first-image-co {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 90px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .disitalagence-image-co {
+    width: 48%;
+  }
+
+  .disitalagence-text-co {
+    width: 48%;
+    padding-top: 0px;
+  }
+  .disitalagence-image-co-second-image-class {
+    width: 230px;
+    height: 290px;
+    margin-left: 0px;
+  }
+  .disitalagence-text-co-first-pargraph {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+  }
+  .disitalagence-text-co-second-pargraph {
+    margin-top: 15px;
+  }
+  .disitalagence-image-co-second-image-co-second-img-co {
+    margin-left: 160px;
+    margin-bottom: 230px;
+  }
+  .disitalagence-text-co-third-pargraph {
+    font-size: 20px;
+    color: rgb(67, 66, 66);
+  }
+  .digital-agency-flex-text-bg-co-first-co-color-co-paragraph-class {
+    font-size: 17px;
+  }
+  .digital-agency-flex-text-bg-co-first-co-color-co {
+    height: 5px;
+    width: 20px;
+  }
+  .digital-agency-flex-text-bg-co-first-co-color-co-paragraph-second-class {
+    font-size: 15px;
+  }
+  .digitalagancy-right-icon-and-paragraph-co-icon-class {
+    font-size: 30px;
+  }
+  .digitalagancy-right-icon-and-paragraph-co-pragraph-class {
+    font-size: 20px;
+  }
+  .digitalagancy-right-icon-and-paragraph-co-button-class {
+    height: 80px;
+    width: 260px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .disitalagency-card-co {
+    width: 1300px;
+    margin-right: 160px;
+  }
+  .disitalagence-image-co-second-image-class {
+    width: 320px;
+    height: 290px;
+  }
+  .disitalagence-image-co-first-image-co {
+    margin-left: 120px;
+  }
+  .disitalagence-text-co {
+    margin-left: 180px;
+  }
+  .disitalagence-image-co-second-image-co-second-img-co {
+    margin-left: 240px;
+  }
+}

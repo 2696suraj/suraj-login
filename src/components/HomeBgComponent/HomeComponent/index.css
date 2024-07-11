@@ -1,0 +1,11 @@
+.home-card-co{
+    background-image:url('https://media.istockphoto.com/id/915160652/photo/man-freelancer-is-working-using-laptop-computer-at-home-office-freelance-lifestyle-workplace.jpg?s=612x612&w=0&k=20&c=YSJmc0Q2wNOczSZWwGjlZu9tt1M6APHnC0t8nViDNoc=');
+    height:100vh;
+    background-size:cover;
+}
+
+@media screen and (min-width : 578px) {
+    .home-card-co{
+        height:120vh;
+    }
+}

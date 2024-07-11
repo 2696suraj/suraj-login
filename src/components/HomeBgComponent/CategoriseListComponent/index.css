@@ -1,0 +1,174 @@
+.Categori-bg-co {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 180px;
+  background-image: url("https://kimox.vercel.app/assets/img/service/service-bg.jpg");
+}
+.Categori-bg-co p:hover{
+  font-weight: 600;
+
+  transform:scale(1.1);
+}
+ p:hover{
+  transform:scale(1.1);
+  font-weight: 600;
+}
+
+.catagori-card-co .categori-icon-paragraph:hover {
+  color:white;
+}
+@media screen and (min-width: 578px) {
+  .Categori-bg-co {
+    padding: 30px;
+    padding-bottom: 180px;
+  }
+}
+
+.Categori-bg-card-co {
+  width: 100%;
+  max-width: 700px;
+  padding-top: 50px;
+}
+
+
+.categori-text-co-first-heding {
+  color: white;
+  border-bottom: red solid 6px;
+  width: 200px;
+}
+
+.categori-text-co-second-heding {
+  color: white;
+  font-size: 42px;
+  margin-top: 0px;
+}
+
+.categori-text-co-paragraph {
+  color: white;
+  font-size: 18px;
+  line-height: 41px;
+}
+
+@media screen and (min-width: 770px) {
+  .categori-text-co-second-heding {
+    font-size: 50px;
+  }
+  .categori-text-co-paragraph {
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 1110px) {
+  .categori-text-co-second-heding {
+    font-size: 57px;
+  }
+  .categori-text-co-paragraph {
+    font-size: 22px;
+  }
+}
+
+.categori-text-co-image-co {
+  border: solid red;
+  height: 76px;
+  width: 76px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.categari-text-co-name-paragraph {
+  color: white;
+  font-family: Reey;
+  padding-left: 20px;
+  font-size: 24px;
+}
+.categori-image-name-co {
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 995px) {
+  .categori-image-name-co {
+    padding-top: 30px;
+  }
+}
+.catagori-card-co {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 230px;
+  background-color: black;
+  margin-top: 20px;
+
+}
+
+
+.categori-icon-paragraph {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.categori-icon-class {
+  font-size: 75px;
+  color: red;
+  margin-bottom: 0px;
+  transition: 1s;
+}
+.catagori-card-co:hover  {
+  background-color: red;
+  color:white;
+
+} 
+.catagori-card-co:hover .categori-icon-class  {
+  color:white;
+  transform:scale(1.2);
+
+
+}
+.cards-catagary-bg-co {
+  margin-top: 30px;
+}
+
+
+
+@media screen and (min-width: 578px) {
+  .cards-catagary-bg-co {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .catagori-card-co {
+    max-width: 350px;
+
+    width: 48%;
+  }
+  .categori-icon-paragraph {
+    color: white;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 995px) {
+  .Categori-bg-card-co {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+  }
+  .cards-catagary-bg-co {
+    width: 49%;
+  }
+  .Categori-text-card-co {
+    width: 49%;
+  }
+}

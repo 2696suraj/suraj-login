@@ -1,0 +1,47 @@
+.ServicesThirdComponent-bg-co {
+  padding: 20px;
+  margin-top: 100px;
+  background-color: aliceblue;
+  padding-top:90px;
+  margin-bottom: 0px;
+  margin-top:0px;
+}
+.ServicesThirdComponent-bg-co  .disitalagence-image-co{
+    padding:0px;
+
+}
+.ServicesThirdComponent-bg-co  .disitalagence-image-co-first-image-co{
+   padding:0px;
+   margin-bottom: 40px;
+}
+.ServicesThirdComponent-bg-co .disitalagence-image-co-first-image-class{
+    padding-bottom:0px;
+    margin-bottom: 0px;
+    width:100%;
+}
+.ServicesThirdComponent-bg-co .disitalagence-text-co{
+    margin-top:0px;
+}
+
+
+.ServicesThirdComponent-bg-co .disitalagence-text-co-third-pargraph{
+    color:red;
+    font-size:20px;
+    font-weight: 550;
+    margin-bottom:0px;
+}
+.ServicesThirdComponent-bg-co .digital-agency-flex-text-bg-co-first-co-color-co-paragraph-class{
+    margin-top:0px;
+    line-height: 30px;
+    font-weight: 550;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 980px) {
+  .ServicesThirdComponent-bg-co {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+  }
+}

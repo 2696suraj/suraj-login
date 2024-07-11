@@ -1,0 +1,48 @@
+.iconimageco-bg-co {
+  margin-top: 90px;
+  background-color: aliceblue;
+  height: 220px;
+  padding-top: 125px;
+  border-top: solid 2px black;
+}
+
+
+.about-Home-bg-co .iconimageco-bg-co  {
+ 
+  
+  margin-top:0px;
+}
+.iconimage-slider-image-co {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconimage-slider-image-class {
+  width: 120px;
+}
+
+
+.iconimage-slider-image-co:hover {
+  height: 140px;
+  padding-top: 5px;
+}
+
+.iconimage-slider-image-class:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (min-width: 570px) {
+
+  .iconimage-slider-image-class {
+    width: 130px;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+  .iconimage-slider-image-class {
+    width: 140px;
+  }
+}

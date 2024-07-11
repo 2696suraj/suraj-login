@@ -1,51 +1,54 @@
-import { createContext } from "react";
-
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Loginfunction from "./components/Logincomponent";
-import Logoutfunction from "./components/Logoutcomponent";
-import Aboutcomponent from "./components/Aboutcomponent";
-import Protectroutercomponent from "./components/Protectroutercomponent";
-import {useState} from "react"
-export const SurajContext = createContext();
+import {
+  Router,
+  Navigate,
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import { createContext, useContext, useState } from "react";
+import NavbarComponent from "./components/NavbarComponent";
+import AboutHomeComponent from "./components/AboutComponent/AboutHomeComponent";
+import HomeComponent from "./components/HomeBgComponent/HomeComponent";
+import ProjectsHomecomponent from "./components/ProjectsComponent/ProjectsHomecomponent";
+import ContactHomeComponent from "./components/ContactComponent/ContactHomeComponent";
+import PagesHomeComponent from "./components/PagesComponent/PagesHomeComponent/";
+import ServicesHomeComponent from "./components/ServicesComponent/ServicesHomeComponent";
+import BlogsHomeComponent from "./components/BlogComponent/BlogsHomeComponent";
+import NotFoundComponent from "./components/NotFoundComponent";
+import LoginComponent from "./components/LoginComponent";
+import CreateAcountComponent from "./components/CreateAcountComponent";
+const useContextva = createContext();
 
 function App() {
-  const [appjs, appcall] = useState({name : "suraj", count : 20})
+  const [valueOfPath, pathChangecall] = useState({ path: "HOME" });
 
-  const update = () => {
-       appcall((cc) => ({count : cc.count + 1}))
-  }
-
-
+  const inStatePathChangeFuntion = (props) => {
+    pathChangecall({ path: props });
+  };
   return (
-    <SurajContext.Provider value={{
-      v: appjs,
-      thefunction : update
-    }}>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Loginfunction />} />
-          <Route
-            path="/logout/:id"
-            element={
-              <Protectroutercomponent>
-                {" "}
-                <Logoutfunction />
-              </Protectroutercomponent>
-            }
-          />
-          <Route
-            path="/notfound"
-            element={
-              <Protectroutercomponent>
-                <Aboutcomponent />{" "}
-              </Protectroutercomponent>
-            }
-          />
-          <Route path="*" element={<Navigate to="/notfound" />} />
-        </Routes>
-      </BrowserRouter>
-    </SurajContext.Provider>
+    <div className="appjs-bg-co">
+      <useContextva.Provider
+        value={{
+          inStatePathChangeFuntion: inStatePathChangeFuntion,
+          ...valueOfPath,
+        }}
+      >
+        <BrowserRouter>
+          <Routes>
+            <Route path="/home" element={<HomeComponent />} />
+            <Route path="/about" element={<AboutHomeComponent />} />
+            <Route path="/contact" element={<ContactHomeComponent />} />
+            <Route path="/project" element={<ProjectsHomecomponent />} />
+            <Route path="/pages" element={<PagesHomeComponent />} />
+            <Route path="/services" element={<ServicesHomeComponent />} />
+            <Route path="/blog" element={<BlogsHomeComponent />} />
+            <Route path="/notfound" element={<NotFoundComponent />} />
+            <Route path="*" element={<Navigate to="NotFound" />}></Route>
+          </Routes>
+        </BrowserRouter>
+      </useContextva.Provider>
+    </div>
   );
 }
-
+export { useContextva };
 export default App;

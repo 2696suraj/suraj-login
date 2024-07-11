@@ -1,0 +1,34 @@
+.AboutFourthComponent-disitalagency-bg-co {
+    padding: 20px;
+    padding-top:80px;
+    padding-bottom:80px;
+
+    margin-top:100px;
+    background-color:rgb(198, 208, 211);
+  }
+
+  .AboutFourthComponent-disitalagence-text-co-card-first{
+    background-color:white;
+    padding:20px;
+    margin-bottom:50px;
+  }
+
+  .AboutFourthComponent-disitalagency-bg-co .AboutFourthComponent-digitalagancy-right-icon-and-paragraph-co{
+    background-color:white;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-bottom:20px;
+    padding:10px;
+  }
+  @media screen and (min-width: 980px) {
+   
+    .AboutFourthComponent-disitalagency-bg-co {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+    }
+    
+
+}
